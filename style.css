@@ -16,10 +16,6 @@ html, body, h1, h2, h3, h4, h5, p {
     display: flex;
 }
 
-.nav-header{
-    
-}
-
 ul {
     list-style-type: none;
 }
