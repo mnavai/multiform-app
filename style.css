@@ -11,12 +11,37 @@ html, body, h1, h2, h3, h4, h5, p {
     box-sizing: border-box;
 }
 
+body{
+    background-color: hsl(206, 94%, 87%);
+    /* to place everything in the center of body */
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+    /* end of centerilizig */
+
+}
+
 #container {
     font-family: 'Ubuntu', sans-serif;
     display: flex;
+    background-color: rgb(121, 115, 115);
+    height: 75% ; 
+    width: 75%;
+    padding: 1.87rem;
+}
+
+.side-nav {
+    background-color: rgb(50, 173, 19);
+    height:100%;    
+}
+
+.main-section{
+    background-color: burlywood;
+    width:100%;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
 }
 
