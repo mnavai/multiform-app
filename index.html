@@ -5,63 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="nav-header">
-        <nav class="side-nav">
-            <ul>
-                <li class="list-items">
-                    <div class="circle-icon">
-                        1
-                    </div>
-                    <h5 class="nav-heading">STEP 1</h5>
-                    <p class="nav-p">YOUR INFO</p>
-                </li>
-                <li class="list-items">
-                    <div class="circle-icon">
-                        2
-                    </div>
-                    <h5 class="nav-heading">STEP 2</h5>
-                    <p class="nav-p">SELECT PLAN</p>
-                </li>
-                <li class="list-items">
-                    <div class="circle-icon">
-                        3
-                    </div>
-                    <h5 class="nav-heading">STEP 3</h5>
-                    <p class="nav-p">ADD-ONS</p>
-                </li>
-                <li class="list-items">
-                    <div class="circle-icon">
-                        4
-                    </div>
-                    <h5 class="nav-heading">STEP 4</h5>
-                    <p class="nav-p">SUMMARY</p>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main-section">
-        <hgroup class="form-hgroup">
-            <h1 class="hgroup-heading">Personal Info</h1>
-            <p class="hgroup-p">Please provide your name, email address, and phone number.</p>
-        </hgroup>
-        <form class="form-group">
-            <div class="field-group">
-                <label class="form-label">Name</label>
-                <input class="form-input"/>
-            </div>
-            <div class="field-group">
-                <label class="form-label">Email Address</label>
-                <input class="form-input"/>
-            </div>
-            <div class="field-group">
-                <label class="form-label">Phone Number</label>
-                <input class="form-input"/>
-            </div>
-        </form>
-        <input type="submit" class="btn" />
-            Next Step
-    </main>
+    <div id="container">
+        <header class="nav-header">
+            <nav class="side-nav">
+                <ul>
+                    <li class="list-items">
+                        <div class="circle-icon">
+                            1
+                        </div>
+                        <div class="list-item-info">
+                            <h5 class="nav-heading">STEP 1</h5>
+                            <p class="nav-p">YOUR INFO</p>
+                        </div>
+                    </li>
+                    <li class="list-items">
+                        <div class="circle-icon">
+                            2
+                        </div>
+                        <div class="list-item-info">
+                            <h5 class="nav-heading">STEP 2</h5>
+                            <p class="nav-p">SELECT PLAN</p>
+                        </div>
+                    </li>
+                    <li class="list-items">
+                        <div class="circle-icon">
+                            3
+                        </div>
+                        <div class="list-item-info">
+                            <h5 class="nav-heading">STEP 3</h5>
+                            <p class="nav-p">ADD-ONS</p>
+                        </div>
+                    </li>
+                    <li class="list-items">
+                        <div class="circle-icon">
+                            4
+                        </div>
+                        <div class="list-item-info">
+                            <h5 class="nav-heading">STEP 4</h5>
+                            <p class="nav-p">SUMMARY</p>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main-section">
+            <hgroup class="form-hgroup">
+                <h1 class="hgroup-heading">Personal Info</h1>
+                <p class="hgroup-p">Please provide your name, email address, and phone number.</p>
+            </hgroup>
+            <form class="form-group">
+                <div class="field-group">
+                    <label class="form-label">Name</label>
+                    <input class="form-input"/>
+                </div>
+                <div class="field-group">
+                    <label class="form-label">Email Address</label>
+                    <input class="form-input"/>
+                </div>
+                <div class="field-group">
+                    <label class="form-label">Phone Number</label>
+                    <input class="form-input"/>
+                </div>
+            </form>
+            <input type="submit" class="btn" />
+                Next Step
+        </main>
+    </div>
 </body>
 </html>
