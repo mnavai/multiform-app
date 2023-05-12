@@ -30,18 +30,42 @@ body{
     padding: 1.87rem;
 }
 
+.nav-header{
+    width: 30vw;
+}
+
 .side-nav {
     background-color: rgb(50, 173, 19);
     height:100%;    
+
 }
 
 .main-section{
     background-color: burlywood;
-    width:100%;
+    width:70vw;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
+}
+
+.circle-icon {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+.list-items {
+    display: flex;
+    align-items: center;
 }
 
