@@ -8,8 +8,8 @@ html, body, h1, h2, h3, h4, h5, p {
     font-size: 100%;
     font-stretch: inherit;
     vertical-align: baseline;
-    box-sizing: border-box;
 }
+
 *{
     box-sizing: border-box;
 }
@@ -31,6 +31,7 @@ body{
     height: 75% ; 
     width: 75%;
     padding: 1.87rem;
+    border-radius: .8rem;
 }
 
 .nav-header{
@@ -38,8 +39,10 @@ body{
 }
 
 .side-nav {
+    padding-top: 3.5rem;
     background-color: rgb(50, 173, 19);
     height:100%; 
+    border-radius: .8rem;
 }
 
 .main-section{
@@ -60,6 +63,10 @@ body{
     padding-bottom: 2rem;
 }
 
+.form-input {
+    border-radius: .3rem;
+}
+
 .field-group{
     display: flex;
     flex-direction: column;
@@ -68,6 +75,7 @@ body{
 
 .btn {
     align-self: flex-end ;
+    border-radius: .3rem;
     
 }
 
@@ -77,21 +85,22 @@ ul {
 }
 
 .circle-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     width: 36px;
     height: 36px;
-    padding: 8px;
-
     background: rgba(255, 255, 255, 0);
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     text-align: center;
-
-    font: 32px Arial, sans-serif;
+    font: 15px Arial, sans-serif;
 }
 
 .list-items {
     display: flex;
     align-items: center;
+    padding: 1.2rem;
 }
 
