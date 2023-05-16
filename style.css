@@ -40,7 +40,7 @@ body{
 
 .side-nav {
     padding-top: 3.5rem;
-    background-color: rgb(50, 173, 19);
+    background-color: rgb(57, 72, 53);
     height:100%; 
     border-radius: .8rem;
 }
@@ -51,7 +51,6 @@ body{
     display: flex;
     flex-direction: column;
     padding:10rem;
-    
 }
 
 .form-group{
@@ -65,6 +64,14 @@ body{
 
 .form-input {
     border-radius: .3rem;
+    height: 2.5rem;
+    padding: .5rem;
+    border-color: hsl(229, 24%, 87%);
+}
+
+.form-label{
+    color: hsl(213, 96%, 18%);
+    padding-bottom: .2rem;
 }
 
 .field-group{
@@ -73,10 +80,25 @@ body{
     padding-bottom: .4rem;
 }
 
+.hgroup-p{
+    color:hsl(231, 11%, 63%);
+    font-size:18px;
+}
+.hgroup-heading{
+    color: hsl(213, 96%, 18%);
+    font-size: 30px;
+}
 .btn {
+    color: white;
+    background-color: hsl(213, 96%, 18%);
+    border-color: hsl(213, 96%, 18%);
     align-self: flex-end ;
     border-radius: .3rem;
-    
+    padding: 10px;
+    margin-top: 5rem;
+    width:8rem;
+    height: 3rem;
+    font-size: 18px;
 }
 
 ul {
@@ -103,4 +125,12 @@ ul {
     align-items: center;
     padding: 1.2rem;
 }
-
+.list-item-info{
+    padding-left: 10px;
+}
+.nav-heading{
+    color:hsl(231, 11%, 63%)
+}
+.nav-p {
+    color:white;
+}
