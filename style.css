@@ -73,6 +73,9 @@ body{
     padding: .5rem;
     border-color: hsl(229, 24%, 87%);
 }
+.form-input:hover {
+    color:hsl(213, 96%, 18%);
+}
 
 .form-label{
     color: hsl(213, 96%, 18%);
