@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function(){
             error.style.display = "block";
         }
         return;
-        form.submit()
+        form.submit();
     }
 });
