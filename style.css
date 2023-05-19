@@ -78,7 +78,6 @@ body{
     color: hsl(213, 96%, 18%);
     padding-bottom: .2rem;
 }
-
 .field-group{
     display: flex;
     flex-direction: column;
@@ -141,4 +140,19 @@ ul {
 }
 .nav-p {
     color:white;
+}
+.active{
+    background-color: hsl(206, 94%, 87%);
+    color: hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.error-text {
+  color: hsl(354, 84%, 57%);
+  padding-bottom: .2rem;
+  display: none;
+}
+.labels-container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
 }
