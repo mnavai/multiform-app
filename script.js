@@ -1,28 +1,36 @@
 document.addEventListener('DOMContentLoaded', function(){
+
     const form = document.getElementById('form');
-    form.addEventListener('submit',validateForm);
-
-    function validateForm(event){
+    form.addEventListener('submit',(event)=>{
         event.preventDefault();
-
+        const name = document.getElementById('name');
+        const email = document.getElementById('email');
+        const phonenumber = document.getElementById('phonenumber');
         //Ensure all fields are filled before submitting 
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const phonenumber = document.getElementById('phonenumber').value;
-
-        if (name === ''){
+        console.log("test",name);
+        if (name.value === ''){
             const error = document.querySelector('.error-text-name');  
             error.style.display = "block"
         }
-        if (email === ''){
+        if (email.value === ''){
             const error = document.querySelector('.error-text-email');
             error.style.display = "block"
         }
-        if (phonenumber === ''){
+        if (phonenumber.value === ''){
             const error = document.querySelector('.error-text-phone');
             error.style.display = "block";
         }
-        return;
-        form.submit();
-    }
+        name.addEventListener('focus', ()=> {
+            const errName = document.querySelector('.error-text-name');
+            errName.style.display = "none";
+        });
+        email.addEventListener('keypress', () => {
+            const errEmail = document.querySelector('.error-text-name');
+            errEmail.style.display = "none";
+        });
+        phonenumber.addEventListener('keypress',() => {
+            const errPhone = document.querySelector('.error-text-name');
+            errPhone.style.display = "none";
+        });
+    });
 });
