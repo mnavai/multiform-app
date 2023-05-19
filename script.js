@@ -20,9 +20,9 @@ document.addEventListener('DOMContentLoaded', function(){
         }
         if (phonenumber === ''){
             const error = document.querySelector('.error-text-phone');
-            error.style.display = "block"
-            return;
+            error.style.display = "block";
         }
+        return;
         form.submit()
     }
 });
