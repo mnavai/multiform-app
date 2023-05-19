@@ -9,11 +9,9 @@ html, body, h1, h2, h3, h4, h5, p {
     font-stretch: inherit;
     vertical-align: baseline;
 }
-
 *{
     box-sizing: border-box;
 }
-
 body{
     background-color: hsl(206, 94%, 87%);
     /* to place everything in the center of body */
@@ -22,7 +20,6 @@ body{
     height: 100vh; 
     /* end of centerilizig */
 }
-
 #container {
     font-family: 'Ubuntu', sans-serif;
     display: flex;
@@ -46,7 +43,6 @@ body{
     background-position: center;
     background-size: cover;
 }
-
 .main-section{
     background-color: rgb(255, 255, 255);
     width:70vw;
@@ -54,7 +50,6 @@ body{
     flex-direction: column;
     padding:10rem;
 }
-
 .form-group{
     display: flex;
     flex-direction: column;
@@ -63,7 +58,6 @@ body{
 .form-hgroup{
     padding-bottom: 2rem;
 }
-
 .form-input {
     border-radius: .3rem;
     height: 2.5rem;
