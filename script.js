@@ -10,8 +10,16 @@ document.addEventListener('DOMContentLoaded', function(){
         const email = document.getElementById('email').value;
         const phonenumber = document.getElementById('phonenumber').value;
 
-        if (name === '' || email === '' || phonenumber === ''){
-            const error = document.querySelector('.error-text');
+        if (name === ''){
+            const error = document.querySelector('.error-text-name');  
+            error.style.display = "block"
+        }
+        if (email === ''){
+            const error = document.querySelector('.error-text-email');
+            error.style.display = "block"
+        }
+        if (phonenumber === ''){
+            const error = document.querySelector('.error-text-phone');
             error.style.display = "block"
             return;
         }

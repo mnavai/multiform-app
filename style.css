@@ -146,7 +146,7 @@ ul {
     color: hsl(213, 96%, 18%);
     font-weight: bold;
 }
-.error-text {
+.error-text-name, .error-text-email, .error-text-phone {
   color: hsl(354, 84%, 57%);
   padding-bottom: .2rem;
   display: none;
