@@ -143,9 +143,13 @@ ul {
   color: hsl(354, 84%, 57%);
   padding-bottom: .2rem;
   display: none;
+
 }
 .labels-container{
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+}
+.error-border{
+    border: 2px solid hsl(354, 84%, 57%);
 }
