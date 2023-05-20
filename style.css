@@ -153,3 +153,30 @@ ul {
 .error-border{
     border: 2px solid hsl(354, 84%, 57%);
 }
+
+/* media queries */
+@media screen and (min-width:579px) and (max-width: 1024px) {
+    body{
+        place-items:unset;
+        max-width: 100%;
+    }
+    #container {
+        flex-direction: column;
+        height: 100%;
+        width: 60%;
+        padding: 0;
+        border-radius: 0;
+    }
+    .nav-header{
+        width: 100vw;
+    }
+    .list-item-info{
+        display: none;
+    }
+    ul {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+    }
+}
