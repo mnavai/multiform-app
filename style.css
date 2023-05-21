@@ -157,6 +157,7 @@ ul {
 }
 
 /* media queries */
+/* Tablet view */
 @media screen and (min-width:579px) and (max-width: 1180px) {
     body{
         display: flex;
@@ -164,7 +165,7 @@ ul {
         place-items:unset;
         max-width: 100%;
         overflow: hidden;
-        padding: 2rem;
+        padding: 0;
     }
     #container {
         flex-direction: column;
@@ -197,13 +198,14 @@ ul {
     }
     .main-section {
         background-color: rgb(255, 255, 255);
-        width: 80%;
+        width: 85%;
         height: 65%;
         display: flex;
         flex-direction: column;
         padding: 2rem;
         position: absolute;
         top: 10.625rem;
+        border-radius: 1.2rem;
     }
     .form-hgroup{
         padding-bottom: 3rem;
@@ -211,5 +213,84 @@ ul {
     }
     .hgroup-heading {
         padding-bottom: 2rem;
+    }
+}
+
+/* Mobile view */
+@media screen and (max-width:578px) {
+    body{
+        display: flex;
+        justify-content: center;
+        place-items:unset;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0;
+    }
+    #container {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+        align-items: center;
+        position: relative;
+        background-color: hsl(206, 94%, 87%);
+        box-shadow: none;
+    }
+
+    .nav-header{
+        width: 100%;
+        height: 25vh;
+        border-radius: 0;
+    }
+    .side-nav{
+        background-image: url("assets/images/bg-sidebar-mobile.svg");
+        border-radius: 0;
+    }
+    .list-items {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem;
+    }
+    .list-item-info{
+        display: none;
+    }
+    .circle-icon{
+        height: 40px;
+        width: 40px;
+    }
+    ul {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       align-items: center;
+       padding: 0;
+    }
+    .main-section {
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        height: 65%;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        position: absolute;
+        top: 7.625rem;
+        border-radius: 1.2rem;
+    }
+    .form-hgroup{
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+    }
+    .hgroup-heading {
+        padding-bottom: 2rem;
+        color: hsl(213, 96%, 18%);
+        font-size: 25px;
+    }
+    .hgroup-p {
+        color: hsl(231, 11%, 63%);
+        font-size: 18px;
+    }
+    btn {
+        margin-top: 6rem;
     }
 }
