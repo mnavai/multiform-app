@@ -198,10 +198,18 @@ ul {
     .main-section {
         background-color: rgb(255, 255, 255);
         width: 80%;
+        height: 65%;
         display: flex;
         flex-direction: column;
         padding: 2rem;
         position: absolute;
         top: 10.625rem;
+    }
+    .form-hgroup{
+        padding-bottom: 3rem;
+        padding-top: 2rem;
+    }
+    .hgroup-heading {
+        padding-bottom: 2rem;
     }
 }
