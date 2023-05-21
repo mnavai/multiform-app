@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="secondpage.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -66,28 +66,45 @@
                 <p class="hgroup-p">Please provide your name, email address, and phone number.</p>
             </hgroup>
             <form id="form" class="form-group">
-                <div class="field-group">
-                    <div class="labels-container">
-                        <label class="form-label">Name</label>
-                        <label class="error-text-name">This field is required</label> 
+                <div class="card-group">
+                    <div class="card">
+                        <div class="icon">
+                            <img/>
+                        </div>
+                        <div class="text-group">
+                            <h5></h5>
+                            <p class="card-text"></p>
+                        </div>
                     </div>
-                    <input type="text" id="name" class="form-input" placeholder="e.g. Stephen King" />
+                    <div class="card">
+                        <div class="icon">
+                            <img/>
+                        </div>
+                        <div class="text-group">
+                            <h5></h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <img/>
+                        </div>
+                        <div class="text-group">
+                            <h5></h5>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
                 </div>
-                <div class="field-group">
-                    <div class="labels-container">
-                        <label class="form-label">Email Address</label>
-                        <label class="error-text-email">This field is required</label> 
-                    </div>
-                    <input type="email" id="email" class="form-input" placeholder="e.g. stephenking@lorem.com" />
-                </div>
-                <div class="field-group">
-                    <div class="labels-container">
-                        <label class="form-label">Phone</label>
-                        <label class="error-text-phone">This field is required</label> 
-                    </div>
-                    <input class="form-input" type="number" id="phonenumber" placeholder="e.g. +1 999-999-9999" />
+                <div>
+                    <h5>Monthly</h5>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p>Yearly</p>
                 </div>
                 <input type="submit" value="Next Step" class="btn" />
+                <input type="submit" value="Go Back" class="btn-goback" />
             </form>
         </main>
     </div>
