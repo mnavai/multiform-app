@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function(){
         //clear the form if successfully submitted
         if(name.value !== '' && email.value !== '' && phonenumber.value !== ''){
             form.reset();
+            window.location.href = "secondpage.html";
         }
     });
 });
