@@ -214,6 +214,9 @@ ul {
     .hgroup-heading {
         padding-bottom: 2rem;
     }
+    .labels-container{
+       font-size: 20px;
+    }
 }
 
 /* Mobile view */
