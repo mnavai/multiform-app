@@ -45,7 +45,5 @@ document.addEventListener('DOMContentLoaded', function(){
             form.reset();
             window.location.href = "secondpage.html";
         }
-    });
-
-    
+    });    
 });
