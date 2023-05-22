@@ -110,12 +110,14 @@ border-radius: 50%;
     width:70vw;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding:10rem;
 }
 .form-group{
     display: flex;
     flex-direction: column;
-    
+    justify-content: flex-start;
+    align-items: center;
 }
 .form-hgroup{
     padding-bottom: 2rem;
@@ -141,7 +143,7 @@ border-radius: 50%;
 }
 .hgroup-p{
     color:hsl(231, 11%, 63%);
-    font-size:25px;
+    font-size:18px;
 }
 .hgroup-heading{
     color: hsl(213, 96%, 18%);
@@ -218,20 +220,21 @@ ul {
 .card-group{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    
 }
 .card{
     height: 16vh;
-    width: 10vw;
+    width: 8vw;
     border: 2px solid rgb(201, 210, 221);
     border-radius: .3rem;
-    margin-right: 20px;
 }
 .card:hover{
     border: 2px solid blue;
     cursor: pointer;
 }
+.card:nth-child(-n+2) {
+    margin-right: 2rem; /* Add margin-right to the first and second cards */
+  }
 .card.selected{
     border: 2px solid blue;
     cursor: pointer;
@@ -257,13 +260,16 @@ ul {
     background-color: hsl(231, 100%, 99%);
     border-radius: .5rem;
     margin-top: 2rem;
-    width: 32.7vw;
+    width: 28vw;
     height: 4vh;
 }
 .buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 1rem;
+    width: 28vw;
+    
 }
 .btn-goback{
     color: hsl(213, 96%, 18%);
