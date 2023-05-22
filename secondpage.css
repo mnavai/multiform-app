@@ -224,8 +224,16 @@ ul {
 .card{
     height: 18vh;
     width: 10vw;
-    background-color: rgb(26, 111, 208);
+    background-color: rgb(201, 210, 221);
+    border: 2px solid rgb(201, 210, 221);
     margin-right: 20px;
+    
+}
+.card:hover{
+    border: 2px solid blue;
+}
+.card.selected{
+    border: 2px solid blue;
 }
 .grey-bar{
     display: flex;
@@ -267,6 +275,8 @@ ul {
     margin-top: 6rem;
     padding: 1rem;
 }
+
+
 /* media queries */
 /* Tablet view */
 @media screen and (min-width:579px) and (max-width: 1180px) {
