@@ -388,7 +388,7 @@ ul {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 3.5rem;
+        margin-top: 2.5rem;
         padding: 1rem;
     }
 }
@@ -455,17 +455,17 @@ ul {
         border-radius: 1.2rem;
     }
     .form-hgroup{
-        padding-bottom: 3rem;
+        padding-bottom: 2rem;
         padding-top: 2rem;
     }
     .hgroup-heading {
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         color: hsl(213, 96%, 18%);
         font-size: 25px;
     }
     .hgroup-p {
         color: hsl(231, 11%, 63%);
-        font-size: 18px;
+        font-size: 16px;
     }
     .btn {
         margin-top: 6rem;
@@ -498,7 +498,8 @@ ul {
         padding: 1rem;
     }
     .card:nth-child(-n+2) {
-        margin-right: 0; /* Add margin-right to the first and second cards */
+        margin-right: 0;
+        margin-bottom: 1rem; /* Add margin-right to the first and second cards */
     }
     .grey-bar {
         display: flex;
